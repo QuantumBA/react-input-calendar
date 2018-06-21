@@ -64,11 +64,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rudeg/react-input-calendar"
+    "url": "https://github.com/QuantumBA/react-input-calendar"
   },
   "homepage": "http://rudeg.github.io/react-input-calendar/",
   "bugs": {
-    "url": "https://github.com/Rudeg/react-input-calendar/issues"
+    "url": "https://github.com/QuantumBA/react-input-calendar/issues"
   },
   "keywords": [
     "react",
