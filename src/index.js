@@ -63,10 +63,6 @@ class Calendar extends React.Component {
       maxDate: nextProps.maxDate ? moment(nextProps.maxDate, this.state.parsingFormat) : null
     }
 
-    if (nextProps.disabled === true) {
-      newState.isVisible = false
-    }
-
     this.setState(newState)
   }
 
@@ -109,7 +105,7 @@ class Calendar extends React.Component {
 
     !this.state.keyboardDisabled && document[eventMethod]('keydown', this.keyDown)
 
-    if (this.state.isVisible !== value && !this.props.disabled) {
+    if (this.state.isVisible !== value) {
       this.setState({ isVisible: value })
     }
   }
@@ -283,7 +279,7 @@ class Calendar extends React.Component {
       'icon-hidden': this.props.hideIcon
     })
     const calendar =
-      !this.state.isVisible || this.props.disabled ? (
+      !this.state.isVisible ? (
         ''
       ) : (
         <div className={calendarClass} onClick={this.calendarClick}>
