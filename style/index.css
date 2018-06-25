@@ -1,6 +1,7 @@
 .input-calendar {
   font-family: 'Pontano Sans', sans-serif;
   position: relative;
+  margin: 5px;
 }
 
 .input-calendar-wrapper {
