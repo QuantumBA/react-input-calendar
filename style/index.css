@@ -23,7 +23,7 @@
 }
 
 .input-calendar .input-calendar-field {
-  width: 195px;
+  width: 225px;
   font-size: 15px;
   border: 3px solid #25A7A2;
   border-radius: 10px;
@@ -134,7 +134,6 @@
   cursor: pointer;
   position: absolute;
   top: 0;
-  margin-top: -5px;
 }
 
 .input-calendar .icon:hover,
